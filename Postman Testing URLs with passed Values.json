@@ -1,0 +1,354 @@
+{
+	"info": {
+		"_postman_id": "00761a2d-ea79-4243-90b2-a3dfceb21adc",
+		"name": "Customer Orders - Validata",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Customers",
+			"item": [
+				{
+					"name": "Get All Customers",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "Get A Customer",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "Add New Customer",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"CustomerId\": 0,\r\n    \"FirstName\": \"C4\",\r\n    \"LastName\":\"C4\",\r\n    \"Address\": \"A4\",\r\n    \"PostalCode\": 4\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:28475/api/customer/AddNewCustomer",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "28475",
+							"path": [
+								"api",
+								"customer",
+								"AddNewCustomer"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update Customer",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"CustomerId\": 4,\r\n    \"FirstName\": \"C6\",\r\n    \"LastName\":\"C6\",\r\n    \"Address\": \"A6\",\r\n    \"PostalCode\": 6\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:28475/api/customer/UpdateCustomer",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "28475",
+							"path": [
+								"api",
+								"customer",
+								"UpdateCustomer"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete Customer",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"CustomerId\": 4,\r\n    \"FirstName\": \"C6\",\r\n    \"LastName\":\"C6\",\r\n    \"Address\": \"A6\",\r\n    \"PostalCode\": 6\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:28475/api/customer/UpdateCustomer",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "28475",
+							"path": [
+								"api",
+								"customer",
+								"UpdateCustomer"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Orders",
+			"item": [
+				{
+					"name": "Get A Customer Ordesrs Using Memory",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:28475/api/CustomerOrders/GetAllOrdersForCustomerWithMemory/2",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "28475",
+							"path": [
+								"api",
+								"CustomerOrders",
+								"GetAllOrdersForCustomerWithMemory",
+								"2"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Add An Order",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "\r\n{\r\n    \"Id\": 0,\r\n    \"CustomerId\": 3,\r\n    \"OrderDate\": \"2022-09-25\",\r\n    \"TotalPrice\": 0.00,\r\n    \"ItemsVM\": [\r\n        {\r\n            \"Id\": 0,\r\n            \"OrderId\": 0,\r\n            \"Quantity\": 3,\r\n            \"ProductVM\": {\r\n                \"Id\": 3,\r\n                \"Name\": \"P3\",\r\n                \"Price\": 30.00\r\n            }\r\n        },\r\n        {\r\n            \"Id\": 0,\r\n            \"OrderId\": 0,\r\n            \"Quantity\": 2,\r\n            \"ProductVM\": {\r\n                \"Id\": 2,\r\n                \"Name\": \"P2\",\r\n                \"Price\": 20.00\r\n            }\r\n        },\r\n        {\r\n            \"Id\": 0,\r\n            \"OrderId\": 0,\r\n            \"Quantity\": 3,\r\n            \"ProductVM\": {\r\n                \"Id\": 5,\r\n                \"Name\": \"P5\",\r\n                \"Price\": 50.00\r\n            }\r\n        }\r\n    ]\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:28475/api/Orders/AddNewOrder",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "28475",
+							"path": [
+								"api",
+								"Orders",
+								"AddNewOrder"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update An Order",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "\r\n{\r\n    \"Id\": 15,\r\n    \"CustomerId\": 3,\r\n    \"OrderDate\": \"2022-09-25\",\r\n    \"TotalPrice\": 0.00,\r\n    \"ItemsVM\": [\r\n        {\r\n            \"Id\": 62,\r\n            \"OrderId\": 15,\r\n            \"Quantity\": 4,\r\n            \"ProductVM\": {\r\n                \"Id\": 3,\r\n                \"Name\": \"P3\",\r\n                \"Price\": 30.00\r\n            }\r\n        },\r\n        {\r\n            \"Id\": 63,\r\n            \"OrderId\": 15,\r\n            \"Quantity\": 2,\r\n            \"ProductVM\": {\r\n                \"Id\": 2,\r\n                \"Name\": \"P2\",\r\n                \"Price\": 20.00\r\n            }\r\n        },\r\n        {\r\n            \"Id\": 64,\r\n            \"OrderId\": 15,\r\n            \"Quantity\": 4,\r\n            \"ProductVM\": {\r\n                \"Id\": 4,\r\n                \"Name\": \"P4\",\r\n                \"Price\": 40.00\r\n            }\r\n        }\r\n    ]\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:28475/api/Orders/UpdateOrder",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "28475",
+							"path": [
+								"api",
+								"Orders",
+								"UpdateOrder"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete An Order",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "\r\n{\r\n    \"Id\": 14,\r\n    \"CustomerId\": 3,\r\n    \"OrderDate\": \"2022-09-25\",\r\n    \"TotalPrice\": 0.00,\r\n    \"ItemsVM\": [\r\n        {\r\n            \"Id\": 37,\r\n            \"OrderId\": 14,\r\n            \"Quantity\": 4,\r\n            \"ProductVM\": {\r\n                \"Id\": 3,\r\n                \"Name\": \"P3\",\r\n                \"Price\": 30.00\r\n            }\r\n        },\r\n        {\r\n            \"Id\": 38,\r\n            \"OrderId\": 14,\r\n            \"Quantity\": 2,\r\n            \"ProductVM\": {\r\n                \"Id\": 2,\r\n                \"Name\": \"P2\",\r\n                \"Price\": 20.00\r\n            }\r\n        },\r\n        {\r\n            \"Id\": 39,\r\n            \"OrderId\": 14,\r\n            \"Quantity\": 4,\r\n            \"ProductVM\": {\r\n                \"Id\": 4,\r\n                \"Name\": \"P4\",\r\n                \"Price\": 40.00\r\n            }\r\n        }\r\n    ]\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:28475/api/Orders/DeleteOrder/10",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "28475",
+							"path": [
+								"api",
+								"Orders",
+								"DeleteOrder",
+								"10"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Products",
+			"item": [
+				{
+					"name": "Get All Products",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:28475/api/Produc/GetAllProducts",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "28475",
+							"path": [
+								"api",
+								"Produc",
+								"GetAllProducts"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Product",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:28475/api/Produc/GetProduct/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "28475",
+							"path": [
+								"api",
+								"Produc",
+								"GetProduct",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Add New Product",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"id\": 0,\r\n    \"name\": \"P6\",\r\n    \"price\": 60.00\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:28475/api/Product/AddNewProduct",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "28475",
+							"path": [
+								"api",
+								"Product",
+								"AddNewProduct"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update Product",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"id\": 6,\r\n    \"name\": \"P7\",\r\n    \"price\": 70.00\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:28475/api/Product/AddNewProduct",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "28475",
+							"path": [
+								"api",
+								"Product",
+								"AddNewProduct"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete Product",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}

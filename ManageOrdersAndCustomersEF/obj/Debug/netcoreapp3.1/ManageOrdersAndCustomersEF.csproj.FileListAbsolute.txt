@@ -1,0 +1,16 @@
+C:\Visual Studio Projects\GitHubRepos\ManageOrdersAndCustomers\ManageOrdersAndCustomersEF\bin\Debug\netcoreapp3.1\ManageOrdersAndCustomersEF.deps.json
+C:\Visual Studio Projects\GitHubRepos\ManageOrdersAndCustomers\ManageOrdersAndCustomersEF\bin\Debug\netcoreapp3.1\ManageOrdersAndCustomersEF.runtimeconfig.json
+C:\Visual Studio Projects\GitHubRepos\ManageOrdersAndCustomers\ManageOrdersAndCustomersEF\bin\Debug\netcoreapp3.1\ManageOrdersAndCustomersEF.runtimeconfig.dev.json
+C:\Visual Studio Projects\GitHubRepos\ManageOrdersAndCustomers\ManageOrdersAndCustomersEF\bin\Debug\netcoreapp3.1\ManageOrdersAndCustomersEF.dll
+C:\Visual Studio Projects\GitHubRepos\ManageOrdersAndCustomers\ManageOrdersAndCustomersEF\bin\Debug\netcoreapp3.1\ManageOrdersAndCustomersEF.pdb
+C:\Visual Studio Projects\GitHubRepos\ManageOrdersAndCustomers\ManageOrdersAndCustomersEF\bin\Debug\netcoreapp3.1\ManageOrdersAndCustomersBL.dll
+C:\Visual Studio Projects\GitHubRepos\ManageOrdersAndCustomers\ManageOrdersAndCustomersEF\bin\Debug\netcoreapp3.1\ManageOrdersAndCustomersBL.pdb
+C:\Visual Studio Projects\GitHubRepos\ManageOrdersAndCustomers\ManageOrdersAndCustomersEF\obj\Debug\netcoreapp3.1\ManageOrdersAndCustomersEF.csproj.AssemblyReference.cache
+C:\Visual Studio Projects\GitHubRepos\ManageOrdersAndCustomers\ManageOrdersAndCustomersEF\obj\Debug\netcoreapp3.1\ManageOrdersAndCustomersEF.GeneratedMSBuildEditorConfig.editorconfig
+C:\Visual Studio Projects\GitHubRepos\ManageOrdersAndCustomers\ManageOrdersAndCustomersEF\obj\Debug\netcoreapp3.1\ManageOrdersAndCustomersEF.AssemblyInfoInputs.cache
+C:\Visual Studio Projects\GitHubRepos\ManageOrdersAndCustomers\ManageOrdersAndCustomersEF\obj\Debug\netcoreapp3.1\ManageOrdersAndCustomersEF.AssemblyInfo.cs
+C:\Visual Studio Projects\GitHubRepos\ManageOrdersAndCustomers\ManageOrdersAndCustomersEF\obj\Debug\netcoreapp3.1\ManageOrdersAndCustomersEF.csproj.CoreCompileInputs.cache
+C:\Visual Studio Projects\GitHubRepos\ManageOrdersAndCustomers\ManageOrdersAndCustomersEF\obj\Debug\netcoreapp3.1\ManageOrdersAndCustomersEF.csproj.CopyComplete
+C:\Visual Studio Projects\GitHubRepos\ManageOrdersAndCustomers\ManageOrdersAndCustomersEF\obj\Debug\netcoreapp3.1\ManageOrdersAndCustomersEF.dll
+C:\Visual Studio Projects\GitHubRepos\ManageOrdersAndCustomers\ManageOrdersAndCustomersEF\obj\Debug\netcoreapp3.1\ManageOrdersAndCustomersEF.pdb
+C:\Visual Studio Projects\GitHubRepos\ManageOrdersAndCustomers\ManageOrdersAndCustomersEF\obj\Debug\netcoreapp3.1\ManageOrdersAndCustomersEF.genruntimeconfig.cache

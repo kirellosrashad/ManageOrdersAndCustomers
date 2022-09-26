@@ -1,0 +1,10 @@
+C:\Visual Studio Projects\GitHubRepos\ManageOrdersAndCustomers\ManageOrdersAndCustomersBL\bin\Debug\netcoreapp3.1\ManageOrdersAndCustomersBL.deps.json
+C:\Visual Studio Projects\GitHubRepos\ManageOrdersAndCustomers\ManageOrdersAndCustomersBL\bin\Debug\netcoreapp3.1\ManageOrdersAndCustomersBL.dll
+C:\Visual Studio Projects\GitHubRepos\ManageOrdersAndCustomers\ManageOrdersAndCustomersBL\bin\Debug\netcoreapp3.1\ManageOrdersAndCustomersBL.pdb
+C:\Visual Studio Projects\GitHubRepos\ManageOrdersAndCustomers\ManageOrdersAndCustomersBL\obj\Debug\netcoreapp3.1\ManageOrdersAndCustomersBL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Visual Studio Projects\GitHubRepos\ManageOrdersAndCustomers\ManageOrdersAndCustomersBL\obj\Debug\netcoreapp3.1\ManageOrdersAndCustomersBL.AssemblyInfoInputs.cache
+C:\Visual Studio Projects\GitHubRepos\ManageOrdersAndCustomers\ManageOrdersAndCustomersBL\obj\Debug\netcoreapp3.1\ManageOrdersAndCustomersBL.AssemblyInfo.cs
+C:\Visual Studio Projects\GitHubRepos\ManageOrdersAndCustomers\ManageOrdersAndCustomersBL\obj\Debug\netcoreapp3.1\ManageOrdersAndCustomersBL.csproj.CoreCompileInputs.cache
+C:\Visual Studio Projects\GitHubRepos\ManageOrdersAndCustomers\ManageOrdersAndCustomersBL\obj\Debug\netcoreapp3.1\ManageOrdersAndCustomersBL.dll
+C:\Visual Studio Projects\GitHubRepos\ManageOrdersAndCustomers\ManageOrdersAndCustomersBL\obj\Debug\netcoreapp3.1\ManageOrdersAndCustomersBL.pdb
+C:\Visual Studio Projects\GitHubRepos\ManageOrdersAndCustomers\ManageOrdersAndCustomersBL\obj\Debug\netcoreapp3.1\ManageOrdersAndCustomersBL.csproj.AssemblyReference.cache
